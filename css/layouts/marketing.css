@@ -171,7 +171,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #d5e8fd; /*url('../../img/congruent_pentagon.png') center;*/
+    background: white; /*url('../../img/congruent_pentagon.png') center;*/
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -296,6 +296,7 @@ a.pure-button-primary {
     /* We want to give the content area some more padding */
     .content {
         padding: 1em;
+        bacground-color: #f9f9f9;
     }
 
     /* We can align the menu header to the left, but float the
