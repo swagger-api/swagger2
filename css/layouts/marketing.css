@@ -39,6 +39,18 @@ a:hover {
 
 }
 
+a.joinUs  {
+    text-decoration: none;
+    color: #9bc8fd;
+    border-bottom: 1px dotted #4A90E2;
+}
+
+a:hover.joinUs {
+    color: #fff;
+    border-bottom: 1px dotted #4b93e6;
+
+}
+
 p {
     font-family: "Open Sans";
     margin: -1.2em 0 1.4em 0;
@@ -199,9 +211,9 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
-    font-family: "Droid Serif", serif;
+    font-family: "Bree Serif", serif;
     padding: 0em 1.6em;
     font-weight: 400;
     line-height: 1em;
@@ -252,6 +264,7 @@ a.pure-button-primary {
     color: #74a855;
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
+    font-size: 1.5em;
 }
     .content-subhead i {
         margin-right: 7px;
