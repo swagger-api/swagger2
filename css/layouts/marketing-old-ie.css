@@ -13,6 +13,7 @@ body {
   line-height: 1.7em;
   color: #7f8c8d;
   font-size: 13px;
+  font-family: "Open Sans";
 }
 
 h1,
@@ -23,6 +24,7 @@ h5,
 h6,
 label {
   color: #34495e;
+  font-family: "Open Sans";
 }
 
 .pure-img-responsive {
@@ -215,6 +217,7 @@ a.pure-button-primary {
 
 .content-subhead {
   color: #1f8dd6;
+    
 }
 
 .content-subhead i {

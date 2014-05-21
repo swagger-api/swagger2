@@ -12,6 +12,7 @@ body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
+    font-family: "Open Sans";
 }
 
 h1,
@@ -22,6 +23,31 @@ h5,
 h6,
 label {
     color: #34495e;
+    font-family: "Open Sans";
+
+}
+
+a {
+    text-decoration: none;
+    color: #3669a4;
+    border-bottom: 1px dotted #4A90E2;
+}
+
+a:hover {
+    color: #4485d1;
+    border-bottom: 1px dotted #4b93e6;
+
+}
+
+p {
+    font-family: "Open Sans";
+    margin: -1.2em 0 1.4em 0;
+}
+
+.upperBorder {
+    background-image: url(../../img/border-methods.png);
+    height: 6px;
+    background-repeat: repeat-x;
 }
 
 .pure-img-responsive {
@@ -78,10 +104,12 @@ label {
 }
 
 a.pure-button-primary {
-    background: #dfbe41;
+    background: #4A90E2;
     color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
     border-radius: 5px;
-    font-size: 120%;
+    font-size: 150%;
 }
 
 
@@ -137,7 +165,7 @@ a.pure-button-primary {
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
     width: 100%;
-    height: 88%;
+    height: 58%;
     top: 0;
     left: 0;
     position: fixed !important;
@@ -151,15 +179,15 @@ a.pure-button-primary {
     position: absolute;
     top: 0px; left: 0; bottom: 0; right: 0;
     text-align: center;
-    text-transform: uppercase;
-  color: #74a855;
+/*    text-transform: uppercase;
+*/  color: #74a855;
 }
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
     font-size: 20px;
     font-weight: bold;
-    
+    font-family: "Bree Serif", serif;
     padding: 0em 1.6em;
     font-weight: 100;
     line-height: 1em;
@@ -168,7 +196,7 @@ a.pure-button-primary {
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     opacity: 0.8;
 }
 
@@ -179,7 +207,7 @@ a.pure-button-primary {
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
-    top: 87%;
+    top: 57%;
     width: 100%;
     min-height: 12%;
     z-index: 2;
@@ -190,9 +218,10 @@ a.pure-button-primary {
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 2em 0 1em;
+    letter-spacing: 0.03em;
+    font-size: 2em;
+    font-family: "Open Sans", sans-serif;
+    margin: 1.2em 0 1em;
 }
 
 /* This is a modifier class used when the content-head is inside a ribbon */
@@ -203,9 +232,15 @@ a.pure-button-primary {
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
     color: #74a855;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
 }
     .content-subhead i {
         margin-right: 7px;
+    }
+
+    .bottom {
+    color: #FD8B25;
     }
 
 /* This is the class used for the dark-background areas. */
@@ -216,8 +251,24 @@ a.pure-button-primary {
 
 /* This is the class used for the footer */
 .footer {
-    background: #111;
+    background: #444;
+    color: #B6B1B1;
+    background-image: url(../../img/swagger-logo-gray.png);
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
 }
+
+.footer .emphasis {
+    font-style: italic;
+}
+
+@media (min-width: 35em) {
+
+    /* positioning the bg image - MM */
+    .footer {
+        background-position: 9px 8px;
+  }
+
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
@@ -258,7 +309,17 @@ a.pure-button-primary {
 
     .splash-head {
         font-size: 3em;
-      font-family: 'Bree Serif', serif;
+        font-family: 'Bree Serif', serif;
+    }
+
+    .party {
+        background-image: url(../../img/swagger-logo-gray.png);
+        background-repeat: no-repeat;
+        border:1px dotted pink;
+        height: 100px;
+        width: 80px;
+        display: inline;
+        float: left;
     }
 
 
@@ -266,6 +327,12 @@ a.pure-button-primary {
     .l-box-lrg {
         border: none;
     }
+
+    /* This is the class used for the footer -MM */
+    .footer {
+        background-position: 12px 13px;
+    }
+
 
 }
 
@@ -279,4 +346,8 @@ a.pure-button-primary {
     .splash-head {
         font-size: 300%;
     }
+    .footer {
+    background-position: 18px 13px;
+}
+
 }
