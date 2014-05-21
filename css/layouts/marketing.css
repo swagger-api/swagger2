@@ -46,7 +46,7 @@ p {
 
 .upperBorder {
     background-image: url(../../img/border-methods.png);
-    height: 50px;
+    height: 55px;
     background-repeat: repeat-x;
     text-align: center;
     padding-top:14px;
@@ -171,10 +171,10 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background: #E7F0F7; /*url('../../img/congruent_pentagon.png') center;*/
-    background-image: url('../../img/partyHat5.png');
+    background: #DBEFFF; /*url('../../img/congruent_pentagon.png') center;*/
+    background-image: url(../../img/partyHat-sm.png);
     background-repeat: no-repeat;
-    background-position: 180px 90px;
+    background-position: 70px 90px;
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -211,8 +211,10 @@ a.pure-button-primary {
 .splash-subhead {
     
     letter-spacing: 0.02em;
+    font-size:1.2em;
     opacity: 0.8;
-    padding-bottom: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
 
 }
 
@@ -317,8 +319,19 @@ a.pure-button-primary {
         height: 500px;
     }*/
 
+
+
     /* We decrease the width of the .splash, since we have more width
     to work with */
+
+    
+    .splash-container {
+        background: #DBEFFF; /*url('../../img/congruent_pentagon.png') center;*/
+        background-image: url(../../img/partyHat-lg.png);
+        background-repeat: no-repeat;
+        background-position: 90px 70px;
+
+    }
     .splash {
         width: 80%;
         height: 50%;
@@ -332,7 +345,6 @@ a.pure-button-primary {
     .party {
         background-image: url(../../img/swagger-logo-gray.png);
         background-repeat: no-repeat;
-        border:1px dotted pink;
         height: 100px;
         width: 80px;
         display: inline;
@@ -359,6 +371,13 @@ a.pure-button-primary {
  * of the mobile and tablet styles.
  */
 @media (min-width: 78em) {
+    .splash-container {
+    background: #DBEFFF; /*url('../../img/congruent_pentagon.png') center;*/
+    background-image: url(../../img/partyHat-lg.png);
+    background-repeat: no-repeat;
+    background-position: 180px 90px;
+    }
+
     /* We increase the header font size even more */
     .splash-head {
         font-size: 300%;
