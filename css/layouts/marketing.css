@@ -200,7 +200,7 @@ a.pure-button-primary {
 .splash {
     /* absolute center .splash within .splash-container */
     width: 80%;
-    height: 50%;
+    height: 60%;
     margin: auto;
     position: absolute;
     top: 0px; left: 0; bottom: 0; right: 0;
