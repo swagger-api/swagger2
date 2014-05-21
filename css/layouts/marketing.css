@@ -364,6 +364,12 @@ a.pure-button-primary {
         float: left;
     }
 
+    /* adjusting for proportional sizing */
+    .content-wrapper {
+    /* These styles are required for the "scroll-over" effect */
+    position: absolute;
+    top: 60%;
+    width: 100%;
 
     /* We remove the border-separator assigned to .l-box-lrg */
     .l-box-lrg {
